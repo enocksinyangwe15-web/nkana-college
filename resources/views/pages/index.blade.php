@@ -481,19 +481,19 @@
             <article>
 
               <div class="post-img">
-                <img src="{{ asset('assets/img/blog/blog-post-1.webp') }}" alt="" class="img-fluid">
+                <img src="{{ asset('assets/img/blog/banner.png') }}" alt="" class="img-fluid">
               </div>
 
-              <p class="post-category">Politics</p>
+              <p class="post-category">Health Day</p>
 
               <h2 class="title">
-                <a href="{{ asset('assets/blog-details.html') }}">Dolorum optio tempore voluptas dignissimos</a>
+                <a href="{{ asset('assets/blog-details.html') }}">Join us for Health Day to promote wellness,  and learn tips for a healthy lifestyle."</a>
               </h2>
 
               <div class="d-flex align-items-center">
                 <img src="{{ asset('assets/img/person/person-f-12.webp') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
+                  <p class="post-author">Mary mulenga</p>
                   <p class="post-date">
                     <time datetime="2022-01-01">Jan 1, 2022</time>
                   </p>
@@ -507,13 +507,13 @@
             <article>
 
               <div class="post-img">
-                <img src="{{ asset('assets/img/blog/blog-post-2.webp') }}" alt="" class="img-fluid">
+                <img src="{{ asset('assets/img/blog/Events.webp') }}" alt="" class="img-fluid">
               </div>
 
-              <p class="post-category">Sports</p>
+              <p class="post-category">New Program</p>
 
               <h2 class="title">
-                <a href="{{ asset('assets/blog-details.html') }}">Nisi magni odit consequatur autem nulla dolorem</a>
+                <a href="{{ asset('assets/blog-details.html') }}">Explore our new program designed to equip students with practical skill dynamic professional environment.</a>
               </h2>
 
               <div class="d-flex align-items-center">
@@ -532,25 +532,25 @@
           <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <article>
 
-              <div class="post-img">
-                <img src="{{ asset('assets/img/blog/blog-post-3.webp') }}" alt="" class="img-fluid">
-              </div>
+             <div class="post-img">
+  <img src="{{ asset('assets/img/education/nurses.webp') }}" alt="" class="img-fluid">
+</div>
 
-              <p class="post-category">Entertainment</p>
+<p class="post-category">Campus Life</p>
 
-              <h2 class="title">
-                <a href="{{ asset('assets/blog-details.html') }}">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
-              </h2>
+<h2 class="title">
+  <a href="{{ asset('assets/blog-details.html') }}">Annual Health Awareness Week Promotes Student Wellbeing</a>
+</h2>
 
-              <div class="d-flex align-items-center">
-                <img src="{{ asset('assets/img/person/person-m-10.webp') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Mark Dower</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 22, 2022</time>
-                  </p>
-                </div>
-              </div>
+<div class="d-flex align-items-center">
+  <img src="{{ asset('assets/img/person/person-m-10.webp') }}" alt="" class="img-fluid post-author-img flex-shrink-0">
+  <div class="post-meta">
+    <p class="post-author">School Health Committee</p>
+    <p class="post-date">
+      <time datetime="2025-10-22">Oct 22, 2025</time>
+    </p>
+  </div>
+</div>
 
             </article>
           </div><!-- End post list item -->
@@ -727,7 +727,7 @@
 
   </main>
   <!-- Scroll Top -->
-  <a href="{{ asset('assets/#') }}" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="{{ asset('assets/#') }}"Dolorum optio tempore voluptas dignissimos id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
