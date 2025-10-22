@@ -1,83 +1,77 @@
+<footer id="footer" class="footer position-relative dark-background">
 
-  <footer id="footer" class="footer position-relative dark-background">
-
-    <div class="container footer-top">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="{{ asset('assets/index.html') }}" class="logo d-flex align-items-center">
-            <span class="sitename">NiceSchool</span>
-          </a>
-          <div class="footer-contact pt-3">
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
-          </div>
-          <div class="social-links d-flex mt-4">
-            <a href="{{ asset('assets/') }}"><i class="bi bi-twitter-x"></i></a>
-            <a href="{{ asset('assets/') }}"><i class="bi bi-facebook"></i></a>
-            <a href="{{ asset('assets/') }}"><i class="bi bi-instagram"></i></a>
-            <a href="{{ asset('assets/') }}"><i class="bi bi-linkedin"></i></a>
-          </div>
+  <div class="container footer-top">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6 footer-about">
+        <a href="{{ url('/') }}" class="logo d-flex align-items-center">
+          <span class="sitename">Nkana College of Nursing &amp; Applied Science</span>
+        </a>
+        <div class="footer-contact pt-3">
+          <p>Plot 27, Nkana East</p>
+          <p>Kitwe, Copperbelt Province, Zambia</p>
+          <p class="mt-3"><strong>Phone:</strong> <span>+260 964 000 000</span></p>
+          <p><strong>Email:</strong> <span>info@ncase.edu.zm</span></p>
         </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><a href="{{ asset('assets/#') }}">Home</a></li>
-            <li><a href="{{ asset('assets/#') }}">About us</a></li>
-            <li><a href="{{ asset('assets/#') }}">Services</a></li>
-            <li><a href="{{ asset('assets/#') }}">Terms of service</a></li>
-            <li><a href="{{ asset('assets/#') }}">Privacy policy</a></li>
-          </ul>
+        <div class="social-links d-flex mt-4">
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
         </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><a href="{{ asset('assets/#') }}">Web Design</a></li>
-            <li><a href="{{ asset('assets/#') }}">Web Development</a></li>
-            <li><a href="{{ asset('assets/#') }}">Product Management</a></li>
-            <li><a href="{{ asset('assets/#') }}">Marketing</a></li>
-            <li><a href="{{ asset('assets/#') }}">Graphic Design</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Hic solutasetp</h4>
-          <ul>
-            <li><a href="{{ asset('assets/#') }}">Molestiae accusamus iure</a></li>
-            <li><a href="{{ asset('assets/#') }}">Excepturi dignissimos</a></li>
-            <li><a href="{{ asset('assets/#') }}">Suscipit distinctio</a></li>
-            <li><a href="{{ asset('assets/#') }}">Dilecta</a></li>
-            <li><a href="{{ asset('assets/#') }}">Sit quas consectetur</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Nobis illum</h4>
-          <ul>
-            <li><a href="{{ asset('assets/#') }}">Ipsam</a></li>
-            <li><a href="{{ asset('assets/#') }}">Laudantium dolorum</a></li>
-            <li><a href="{{ asset('assets/#') }}">Dinera</a></li>
-            <li><a href="{{ asset('assets/#') }}">Trodelas</a></li>
-            <li><a href="{{ asset('assets/#') }}">Flexo</a></li>
-          </ul>
-        </div>
-
       </div>
-    </div>
 
-    <div class="container copyright text-center mt-4">
-      <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="{{ asset('assets/https://bootstrapmade.com/') }}">BootstrapMade</a>
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="{{ url('/') }}">Home</a></li>
+          <li><a href="{{ url('/about') }}">About Us</a></li>
+          <li><a href="{{ url('/admissions') }}">Admissions</a></li>
+          <li><a href="{{ url('/terms-of-service') }}">Terms of Service</a></li>
+          <li><a href="{{ url('/privacy') }}">Privacy Policy</a></li>
+        </ul>
       </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Programmes</h4>
+        <ul>
+          <li><a href="#">Registered Nursing</a></li>
+          <li><a href="#">Clinical Medicine</a></li>
+          <li><a href="#">Environmental Health</a></li>
+          <li><a href="#">Pharmacy</a></li>
+          <li><a href="#">Applied Sciences</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Quick Access</h4>
+        <ul>
+          <li><a href="{{ url('/news') }}">Latest News</a></li>
+          <li><a href="{{ url('/events') }}">Events</a></li>
+          <li><a href="{{ url('/alumni') }}">Alumni</a></li>
+          <li><a href="{{ url('/contact') }}">Contact Us</a></li>
+          <li><a href="{{ url('/students-life') }}">Student Life</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="{{ url('/faculty-staff') }}">Faculty &amp; Staff</a></li>
+          <li><a href="{{ url('/campus-facilities') }}">Campus Facilities</a></li>
+          <li><a href="{{ url('/starter-page') }}">Portal</a></li>
+          <li><a href="{{ url('/event-details') }}">Event Details</a></li>
+          <li><a href="{{ url('/news-details') }}">News Details</a></li>
+        </ul>
+      </div>
+
     </div>
+  </div>
 
-  </footer>
+  <div class="container copyright text-center mt-4">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">Nkana College of Nursing &amp; Applied Science</strong> <span>All Rights Reserved</span></p>
+    <div class="credits">
+      Designed &amp; Developed by <a href="#">NCASE Web Team</a>
+    </div>
+  </div>
 
+</footer>
