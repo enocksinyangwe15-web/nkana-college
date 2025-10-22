@@ -8,667 +8,463 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-      <div class="hero-container">
-        <img
-           src="{{asset('assets/img/education/banner.png')}}"
-           alt="banner"
-           class="banner-image video-background"
-           data-aos="zoom-in"
-           data-aos-delay="100"
-        />
-        
-        <div class="overlay"></div>
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-7" data-aos="zoom-out" data-aos-delay="100">
-              <div class="hero-content">
-                <h1>Empowering Futures Through Education</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae diam ornare, imperdiet est eget, pretium augue. Nullam auctor felis in nibh gravida, eu viverra risus egestas.</p>
-                <div class="cta-buttons">
-                  <a href="{{ asset('assets/#') }}" class="btn-primary">Start Your Journey</a>
-                  <a href="{{ asset('assets/#') }}" class="btn-secondary">Discover Programs</a>
+  <div class="hero-container">
+    <img
+       src="{{asset('assets/img/education/banner.png')}}"
+       alt="banner"
+       class="banner-image video-background"
+       data-aos="zoom-in"
+       data-aos-delay="100"
+    />
+    
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7" data-aos="zoom-out" data-aos-delay="100">
+          <div class="hero-content">
+            <h1>Empowering Futures Through Education</h1>
+            <p>At Nkana College, we prepare students for success with a perfect blend of academic excellence, practical skills, and global perspectives. Your journey to a brighter future starts here.</p>
+            <div class="cta-buttons">
+              <a href="{{ asset('assets/#') }}" class="btn-primary">Start Your Journey</a>
+              <a href="{{ asset('assets/#') }}" class="btn-secondary">Discover Programs</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
+          <div class="stats-card">
+            <div class="stats-header">
+              <h3>Why Choose Us</h3>
+              <div class="decoration-line"></div>
+            </div>
+            <div class="stats-grid">
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="bi bi-trophy-fill"></i>
+                </div>
+                <div class="stat-content">
+                  <h4>98%</h4>
+                  <p>Graduate Employment</p>
                 </div>
               </div>
-            </div>
-            <div class="col-lg-5" data-aos="zoom-out" data-aos-delay="200">
-              <div class="stats-card">
-                <div class="stats-header">
-                  <h3>Why Choose Us</h3>
-                  <div class="decoration-line"></div>
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="bi bi-globe"></i>
                 </div>
-                <div class="stats-grid">
-                  <div class="stat-item">
-                    <div class="stat-icon">
-                      <i class="bi bi-trophy-fill"></i>
-                    </div>
-                    <div class="stat-content">
-                      <h4>98%</h4>
-                      <p>Graduate Employment</p>
-                    </div>
-                  </div>
-                  <div class="stat-item">
-                    <div class="stat-icon">
-                      <i class="bi bi-globe"></i>
-                    </div>
-                    <div class="stat-content">
-                      <h4>45+</h4>
-                      <p>International Partners</p>
-                    </div>
-                  </div>
-                  <div class="stat-item">
-                    <div class="stat-icon">
-                      <i class="bi bi-mortarboard"></i>
-                    </div>
-                    <div class="stat-content">
-                      <h4>15:1</h4>
-                      <p>Student-Faculty Ratio</p>
-                    </div>
-                  </div>
-                  <div class="stat-item">
-                    <div class="stat-icon">
-                      <i class="bi bi-building"></i>
-                    </div>
-                    <div class="stat-content">
-                      <h4>120+</h4>
-                      <p>Degree Programs</p>
-                    </div>
-                  </div>
+                <div class="stat-content">
+                  <h4>12+</h4>
+                  <p>International Partners</p>
+                </div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="stat-content">
+                  <h4>15:1</h4>
+                  <p>Student-Faculty Ratio</p>
+                </div>
+              </div>
+              <div class="stat-item">
+                <div class="stat-icon">
+                  <i class="bi bi-building"></i>
+                </div>
+                <div class="stat-content">
+                  <h4>4+</h4>
+                  <p>Diploma Programs</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      <div class="event-ticker">
-        <div class="container">
-          <div class="row gy-4">
-            <div class="col-md-6 col-xl-4 col-12 ticker-item">
-              <span class="date">NOV 15</span>
-              <span class="title">Open House Day</span>
-              <a href="{{ asset('assets/#') }}" class="btn-register">Register</a>
-            </div>
-            <div class="col-md-6 col-12 col-xl-4  ticker-item">
-              <span class="date">DEC 5</span>
-              <span class="title">Application Workshop</span>
-              <a href="{{ asset('assets/#') }}" class="btn-register">Register</a>
-            </div>
-            <div class="col-md-6 col-12 col-xl-4 ticker-item">
-              <span class="date">JAN 10</span>
-              <span class="title">International Student Orientation</span>
-              <a href="{{ asset('assets/#') }}" class="btn-register">Register</a>
-            </div>
-          </div>
+  <div class="event-ticker">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-6 col-xl-4 col-12 ticker-item">
+          <span class="date">NOV 15</span>
+          <span class="title">Open House Day</span>
+          <a href="{{ asset('assets/#') }}" class="btn-register">Register</a>
+        </div>
+        <div class="col-md-6 col-12 col-xl-4  ticker-item">
+          <span class="date">DEC 5</span>
+          <span class="title">Application Workshop</span>
+          <a href="{{ asset('assets/#') }}" class="btn-register">Register</a>
+        </div>
+        <div class="col-md-6 col-12 col-xl-4 ticker-item">
+          <span class="date">JAN 10</span>
+          <span class="title">International Student Orientation</span>
+          <a href="{{ asset('assets/#') }}" class="btn-register">Register</a>
         </div>
       </div>
+    </div>
+  </div>
 
-    </section><!-- /Hero Section -->
+</section>
+<!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row mb-5">
-          <div class="col-lg-6 pe-lg-5" data-aos="fade-right" data-aos-delay="200">
-            <h2 class="display-6 fw-bold mb-4">Empowering Minds, <span>Shaping Futures</span></h2>
-            <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-            <div class="d-flex flex-wrap gap-4 mb-4">
-              <div class="stat-box">
-                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="25" data-purecounter-duration="1" class="purecounter"></span>+</span>
-                <span class="stat-label">Years</span>
-              </div>
-              <div class="stat-box">
-                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="2500" data-purecounter-duration="1" class="purecounter"></span>+</span>
-                <span class="stat-label">Students</span>
-              </div>
-              <div class="stat-box">
-                <span class="stat-number"><span data-purecounter-start="0" data-purecounter-end="125" data-purecounter-duration="1" class="purecounter"></span>+</span>
-                <span class="stat-label">Faculty</span>
-              </div>
-            </div>
-            <div class="d-flex align-items-center mt-4 signature-block">
-              <img src="{{ asset('assets/img/misc/signature-1.webp') }}" alt="Principal's Signature" width="120">
-              <div class="ms-3">
-                <p class="mb-0 fw-bold">Dr. Elizabeth Morgan</p>
-                <p class="mb-0 text-muted">Principal</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-            <div class="image-stack">
-              <div class="image-stack-item image-stack-item-top" data-aos="zoom-in" data-aos-delay="400">
-                <img src="{{ asset('assets/img/education/campus-4.webp') }}" alt="Campus Life" class="img-fluid rounded-4 shadow-lg">
-              </div>
-              <div class="image-stack-item image-stack-item-bottom" data-aos="zoom-in" data-aos-delay="500">
-                <img src="{{ asset('assets/img/education/students-2.webp') }}" alt="Students" class="img-fluid rounded-4 shadow-lg">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="row mission-vision-row g-4">
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="value-card h-100">
-              <div class="card-icon">
-                <i class="bi bi-rocket-takeoff"></i>
-              </div>
-              <h3>Our Mission</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat.</p>
-            </div>
-          </div>
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="value-card h-100">
-              <div class="card-icon">
-                <i class="bi bi-eye"></i>
-              </div>
-              <h3>Our Vision</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim.</p>
-            </div>
-          </div>
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="value-card h-100">
-              <div class="card-icon">
-                <i class="bi bi-star"></i>
-              </div>
-              <h3>Our Values</h3>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit.</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
+    <!-- /About Section -->
 
     <!-- Featured Programs Section -->
-    <section id="featured-programs" class="featured-programs section">
+<section id="featured-programs" class="featured-programs section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Featured Programs</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Featured Programs</h2>
+    <p>Explore our diverse diploma programs offered at Nkana College of Education and Applied Sciences.</p>
+  </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-          <ul class="program-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All Programs</li>
-            <li data-filter=".filter-bachelor">Bachelor's</li>
-            <li data-filter=".filter-master">Master's</li>
-            <li data-filter=".filter-certificate">Certificates</li>
-          </ul>
+    <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+      <ul class="program-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+        <li data-filter="*" class="filter-active">All Programs</li>
+        <li data-filter=".filter-health">Health Sciences</li>
+        <li data-filter=".filter-teaching">Teaching</li>
+        <li data-filter=".filter-environment">Environmental Sciences</li>
+      </ul>
 
-          <div class="row g-4 isotope-container">
-            <div class="col-lg-6 isotope-item filter-bachelor" data-aos="zoom-in" data-aos-delay="100">
-              <div class="program-item">
-                <div class="program-badge">Bachelor's Degree</div>
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <div class="program-image-wrapper">
-                      <img src="{{ asset('assets/img/education/education-1.webp') }}" class="img-fluid" alt="Program">
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="program-content">
-                      <h3>Computer Science</h3>
-                      <div class="program-highlights">
-                        <span><i class="bi bi-clock"></i> 4 Years</span>
-                        <span><i class="bi bi-people-fill"></i> 120 Credits</span>
-                        <span><i class="bi bi-calendar3"></i> Fall &amp; Spring</span>
-                      </div>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-                      <a href="{{ asset('assets/#') }}" class="program-btn"><span>Learn More</span> <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
+      <div class="row g-4 isotope-container">
+
+        <!-- Clinical Medicine -->
+        <div class="col-lg-6 isotope-item filter-health" data-aos="zoom-in" data-aos-delay="100">
+          <div class="program-item">
+            <div class="program-badge">Diploma</div>
+            <div class="row g-0">
+              <div class="col-md-4">
+                <div class="program-image-wrapper">
+                  <img src="{{ asset('assets/img/education/education-3.webp') }}" class="img-fluid" alt="Clinical Medicine">
                 </div>
               </div>
-            </div><!-- End Program Item -->
-
-            <div class="col-lg-6 isotope-item filter-bachelor" data-aos="zoom-in" data-aos-delay="200">
-              <div class="program-item">
-                <div class="program-badge">Bachelor's Degree</div>
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <div class="program-image-wrapper">
-                      <img src="{{ asset('assets/img/education/education-3.webp') }}" class="img-fluid" alt="Program">
-                    </div>
+              <div class="col-md-8">
+                <div class="program-content">
+                  <h3>Clinical Medicine</h3>
+                  <div class="program-highlights">
+                    <span><i class="bi bi-clock"></i> 3 Years</span>
+                    <span><i class="bi bi-people-fill"></i> Full Time</span>
+                    <span><i class="bi bi-calendar3"></i> Full Time Only</span>
                   </div>
-                  <div class="col-md-8">
-                    <div class="program-content">
-                      <h3>Business Administration</h3>
-                      <div class="program-highlights">
-                        <span><i class="bi bi-clock"></i> 3 Years</span>
-                        <span><i class="bi bi-people-fill"></i> 90 Credits</span>
-                        <span><i class="bi bi-calendar3"></i> Fall Only</span>
-                      </div>
-                      <p>Nullam sed augue a turpis bibendum cursus. Suspendisse potenti. Praesent mi diam, feugiat a tincidunt at.</p>
-                      <a href="{{ asset('assets/#') }}" class="program-btn"><span>Learn More</span> <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
+                  <p>The Clinical Medicine program trains students to diagnose, manage, and treat common medical conditions. It emphasizes practical experience and clinical exposure in hospitals and health centers.</p>
+                  <a href="{{ asset('assets/#') }}" class="program-btn"><span>Learn More</span> <i class="bi bi-arrow-right"></i></a>
                 </div>
               </div>
-            </div><!-- End Program Item -->
-
-            <div class="col-lg-6 isotope-item filter-bachelor" data-aos="zoom-in" data-aos-delay="300">
-              <div class="program-item">
-                <div class="program-badge">Bachelor's Degree</div>
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <div class="program-image-wrapper">
-                      <img src="{{ asset('assets/img/education/education-5.webp') }}" class="img-fluid" alt="Program">
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="program-content">
-                      <h3>Medical Sciences</h3>
-                      <div class="program-highlights">
-                        <span><i class="bi bi-clock"></i> 5 Years</span>
-                        <span><i class="bi bi-people-fill"></i> 150 Credits</span>
-                        <span><i class="bi bi-calendar3"></i> Fall Only</span>
-                      </div>
-                      <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.</p>
-                      <a href="{{ asset('assets/#') }}" class="program-btn"><span>Learn More</span> <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Program Item -->
-
-            <div class="col-lg-6 isotope-item filter-master" data-aos="zoom-in" data-aos-delay="100">
-              <div class="program-item">
-                <div class="program-badge">Master's Degree</div>
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <div class="program-image-wrapper">
-                      <img src="{{ asset('assets/img/education/education-7.webp') }}" class="img-fluid" alt="Program">
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="program-content">
-                      <h3>Environmental Studies</h3>
-                      <div class="program-highlights">
-                        <span><i class="bi bi-clock"></i> 2 Years</span>
-                        <span><i class="bi bi-people-fill"></i> 60 Credits</span>
-                        <span><i class="bi bi-calendar3"></i> Spring Only</span>
-                      </div>
-                      <p>Aenean imperdiet, erat vel consequat mollis, nunc risus aliquam nunc, eget condimentum urna dui et metus.</p>
-                      <a href="{{ asset('assets/#') }}" class="program-btn"><span>Learn More</span> <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Program Item -->
-
-            <div class="col-lg-6 isotope-item filter-master" data-aos="zoom-in" data-aos-delay="200">
-              <div class="program-item">
-                <div class="program-badge">Master's Degree</div>
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <div class="program-image-wrapper">
-                      <img src="{{ asset('assets/img/education/education-9.webp') }}" class="img-fluid" alt="Program">
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="program-content">
-                      <h3>Mechanical Engineering</h3>
-                      <div class="program-highlights">
-                        <span><i class="bi bi-clock"></i> 2 Years</span>
-                        <span><i class="bi bi-people-fill"></i> 64 Credits</span>
-                        <span><i class="bi bi-calendar3"></i> Fall &amp; Spring</span>
-                      </div>
-                      <p>Praesent tincidunt, massa et porttitor imperdiet, lorem ex ultricies ipsum, a tempus metus eros non tortor.</p>
-                      <a href="{{ asset('assets/#') }}" class="program-btn"><span>Learn More</span> <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Program Item -->
-
-            <div class="col-lg-6 isotope-item filter-certificate" data-aos="zoom-in" data-aos-delay="100">
-              <div class="program-item">
-                <div class="program-badge">Certificate</div>
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <div class="program-image-wrapper">
-                      <img src="{{ asset('assets/img/education/education-2.webp') }}" class="img-fluid" alt="Program">
-                    </div>
-                  </div>
-                  <div class="col-md-8">
-                    <div class="program-content">
-                      <h3>Data Science</h3>
-                      <div class="program-highlights">
-                        <span><i class="bi bi-clock"></i> 6 Months</span>
-                        <span><i class="bi bi-people-fill"></i> 24 Credits</span>
-                        <span><i class="bi bi-calendar3"></i> Year-round</span>
-                      </div>
-                      <p>Mauris sed erat in mi vestibulum commodo. Donec a purus at justo facilisis imperdiet tnteger pell</p>
-                      <a href="{{ asset('assets/#') }}" class="program-btn"><span>Learn More</span> <i class="bi bi-arrow-right"></i></a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div><!-- End Program Item -->
-
+            </div>
           </div>
-        </div>
+        </div><!-- End Program Item -->
+
+        <!-- Registered Nursing -->
+        <div class="col-lg-6 isotope-item filter-health" data-aos="zoom-in" data-aos-delay="200">
+          <div class="program-item">
+            <div class="program-badge">Diploma</div>
+            <div class="row g-0">
+              <div class="col-md-4">
+                <div class="program-image-wrapper">
+                  <img src="{{ asset('assets/img/education/education-1.webp') }}" class="img-fluid" alt="Registered Nursing">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="program-content">
+                  <h3>Registered Nursing</h3>
+                  <div class="program-highlights">
+                    <span><i class="bi bi-clock"></i> 3 Years</span>
+                    <span><i class="bi bi-people-fill"></i> Full Time</span>
+                    <span><i class="bi bi-calendar3"></i> Full Time Only</span>
+                  </div>
+                  <p>This program provides professional training for aspiring nurses to deliver high-quality healthcare, focusing on patient care, ethics, and clinical skills development.</p>
+                  <a href="{{ asset('assets/#') }}" class="program-btn"><span>Learn More</span> <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Program Item -->
+
+        <!-- Early Childhood Teaching -->
+        
+        
+        
+      <!-- Early Childhood Teaching will be here  -->
+        
+        
+        
+        
+        
+        
+        
+        <!-- End Program Item -->
+
+        <!-- Primary Teaching -->
+        <div class="col-lg-6 isotope-item filter-teaching" data-aos="zoom-in" data-aos-delay="200">
+          <div class="program-item">
+            <div class="program-badge">Diploma</div>
+            <div class="row g-0">
+              <div class="col-md-4">
+                <div class="program-image-wrapper">
+                  <img src="{{ asset('assets/img/education/education-9.webp') }}" class="img-fluid" alt="Primary Teaching">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="program-content">
+                  <h3>Primary Teaching</h3>
+                  <div class="program-highlights">
+                    <span><i class="bi bi-clock"></i> 3 Years</span>
+                    <span><i class="bi bi-people-fill"></i> Distance</span>
+                    <span><i class="bi bi-calendar3"></i> Full Time</span>
+                  </div>
+                  <p>This program prepares educators with practical and theoretical skills to teach effectively at the primary level, emphasizing pedagogy, assessment, and curriculum development.</p>
+                  <a href="{{ asset('assets/#') }}" class="program-btn"><span>Learn More</span> <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Program Item -->
+
+        <!-- Environmental Health Technology -->
+        <div class="col-lg-6 isotope-item filter-environment" data-aos="zoom-in" data-aos-delay="100">
+          <div class="program-item">
+            <div class="program-badge">Diploma</div>
+            <div class="row g-0">
+              <div class="col-md-4">
+                <div class="program-image-wrapper">
+                  <img src="{{ asset('assets/img/education/education-5.webp') }}" class="img-fluid" alt="Environmental Health Technology">
+                </div>
+              </div>
+              <div class="col-md-8">
+                <div class="program-content">
+                  <h3>Environmental Health Technology</h3>
+                  <div class="program-highlights">
+                    <span><i class="bi bi-clock"></i> 3 Years</span>
+                    <span><i class="bi bi-people-fill"></i> Full Time</span>
+                    <span><i class="bi bi-calendar3"></i> Full Time Only</span>
+                  </div>
+                  <p>This program focuses on promoting public health through environmental management, disease prevention, and sanitation practices for healthy communities.</p>
+                  <a href="{{ asset('assets/#') }}" class="program-btn"><span>Learn More</span> <i class="bi bi-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- End Program Item -->
 
       </div>
+    </div>
+  </div>
 
-    </section><!-- /Featured Programs Section -->
+</section><!-- /Featured Programs Section -->
 
-    <!-- Students Life Block Section -->
-    <section id="students-life-block" class="students-life-block section">
+   
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Students Life</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="row align-items-center gy-4">
-          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
-            <div class="students-life-img position-relative">
-              <img src="{{ asset('assets/img/education/education-square-11.webp') }}" class="img-fluid rounded-4 shadow-sm" alt="Students Life">
-              <div class="img-overlay">
-                <h3>Discover Campus Life</h3>
-                <a href="{{ asset('assets/students-life.html') }}" class="explore-btn">Explore More <i class="bi bi-arrow-right"></i></a>
+
+
+
+
+   <!-- Students Life Block Section -->
+<section id="students-life-block" class="students-life-block section">
+
+<!-- Section Title -->
+<div class="container section-title" data-aos="fade-up">
+  <h2>Student Life</h2>
+  <p>Experience a vibrant campus environment where learning meets personal growth, creativity, and community engagement.</p>
+</div><!-- End Section Title -->
+
+<div class="container" data-aos="fade-up" data-aos-delay="100">
+
+  <div class="row align-items-center gy-4">
+    <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+      <div class="students-life-img position-relative">
+        <img src="{{ asset('assets/img/education/OIP.webp') }}" 
+             class="img-fluid rounded-4 shadow-sm" 
+             alt="Student Life"
+             style="max-height: 550px; width: 90%; object-fit: cover;">
+        <div class="img-overlay">
+          <h3>Discover Campus Life</h3>
+          <a href="{{ asset('assets/students-life.html') }}" class="explore-btn">Explore More <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
+      <div class="students-life-content">
+
+        <div class="row g-4 mb-4">
+
+          <div class="col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="student-activity-item">
+              <div class="icon-box">
+                <i class="bi bi-people"></i>
               </div>
+              <h4>Student Clubs</h4>
+              <p>Join diverse clubs and societies to develop leadership, teamwork, and personal interests beyond the classroom.</p>
             </div>
           </div>
 
-          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="300">
-            <div class="students-life-content">
-
-              <div class="row g-4 mb-4">
-                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="200">
-                  <div class="student-activity-item">
-                    <div class="icon-box">
-                      <i class="bi bi-people"></i>
-                    </div>
-                    <h4>Student Clubs</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam purus.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="300">
-                  <div class="student-activity-item">
-                    <div class="icon-box">
-                      <i class="bi bi-trophy"></i>
-                    </div>
-                    <h4>Sports Events</h4>
-                    <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
-                  <div class="student-activity-item">
-                    <div class="icon-box">
-                      <i class="bi bi-music-note-beamed"></i>
-                    </div>
-                    <h4>Arts &amp; Culture</h4>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
-                  </div>
-                </div>
-
-                <div class="col-md-6" data-aos="zoom-in" data-aos-delay="500">
-                  <div class="student-activity-item">
-                    <div class="icon-box">
-                      <i class="bi bi-globe-americas"></i>
-                    </div>
-                    <h4>Global Experiences</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-                  </div>
-                </div>
+          <div class="col-md-6" data-aos="zoom-in" data-aos-delay="300">
+            <div class="student-activity-item">
+              <div class="icon-box">
+                <i class="bi bi-trophy"></i>
               </div>
-
-              <div class="students-life-cta" data-aos="fade-up" data-aos-delay="600">
-                <a href="{{ asset('assets/students-life.html') }}" class="btn btn-primary">View All Student Activities</a>
-              </div>
+              <h4>Sports Events</h4>
+              <p>Participate in competitive and recreational sports to stay active, build resilience, and foster school spirit.</p>
             </div>
           </div>
+
+          <div class="col-md-6" data-aos="zoom-in" data-aos-delay="400">
+            <div class="student-activity-item">
+              <div class="icon-box">
+                <i class="bi bi-music-note-beamed"></i>
+              </div>
+              <h4>Arts &amp; Culture</h4>
+              <p>Engage in music, theatre, and cultural activities to explore creativity and celebrate diverse talents on campus.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6" data-aos="zoom-in" data-aos-delay="500">
+            <div class="student-activity-item">
+              <div class="icon-box">
+                <i class="bi bi-globe-americas"></i>
+              </div>
+              <h4>Global Experiences</h4>
+              <p>Gain international exposure through exchange programs, seminars, and global projects to broaden your horizons.</p>
+            </div>
+          </div>
+
         </div>
 
+        <div class="students-life-cta" data-aos="fade-up" data-aos-delay="600">
+          <a href="{{ asset('assets/students-life.html') }}" class="btn btn-primary">View All Student Activities</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!-- /Students Life Block Section -->
+
+ <!-- Stats Section -->
+<section id="stats" class="stats section">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="stats-overview" data-aos="fade-right" data-aos-delay="200">
+          <h2 class="stats-title">Empowering Excellence for Over 50 Years</h2>
+          <p class="stats-description">
+            For more than five decades, we have been dedicated to nurturing knowledge, innovation, and leadership. 
+            Our institution continues to deliver quality education that shapes future professionals and transforms communities.
+          </p>
+          <div class="stats-cta">
+            <a href="{{ asset('assets/#') }}" class="btn btn-primary">Learn More</a>
+            <a href="{{ asset('assets/#') }}" class="btn btn-outline">Take a Virtual Tour</a>
+          </div>
+        </div>
       </div>
 
-    </section><!-- /Students Life Block Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="testimonial-masonry">
-
-          <div class="testimonial-item" data-aos="fade-up">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
+      <div class="col-lg-6">
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="stats-card" data-aos="zoom-in" data-aos-delay="300">
+              <div class="stats-icon">
+                <i class="bi bi-people-fill"></i>
               </div>
-              <p>Implementing innovative strategies has revolutionized our approach to market challenges and competitive positioning.</p>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="{{ asset('assets/img/person/person-f-7.webp') }}" alt="Client">
-                </div>
-                <div class="client-details">
-                  <h3>Rachel Bennett</h3>
-                  <span class="position">Strategy Director</span>
-                </div>
+              <div class="stats-number">
+                <span data-purecounter-start="0" data-purecounter-end="90" data-purecounter-duration="1" class="purecounter"></span>%
               </div>
+              <div class="stats-label">Graduation Rate</div>
+              <p></p>
             </div>
           </div>
 
-          <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="100">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
+          <div class="col-md-6">
+            <div class="stats-card" data-aos="zoom-in" data-aos-delay="400">
+              <div class="stats-icon">
+                <i class="bi bi-person-workspace"></i>
               </div>
-              <p>Exceptional service delivery and innovative solutions have transformed our business operations, leading to remarkable growth and enhanced customer satisfaction across all touchpoints.</p>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="{{ asset('assets/img/person/person-m-7.webp') }}" alt="Client">
-                </div>
-                <div class="client-details">
-                  <h3>Daniel Morgan</h3>
-                  <span class="position">Chief Innovation Officer</span>
-                </div>
+              <div class="stats-number">
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>:1
               </div>
+              <div class="stats-label">Student-Faculty Ratio</div>
+              <p></p>
             </div>
           </div>
 
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
+          <div class="col-md-6">
+            <div class="stats-card" data-aos="zoom-in" data-aos-delay="500">
+              <div class="stats-icon">
+                <i class="bi bi-award"></i>
               </div>
-              <p>Strategic partnership has enabled seamless digital transformation and operational excellence.</p>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="{{ asset('assets/img/person/person-f-8.webp') }}" alt="Client">
-                </div>
-                <div class="client-details">
-                  <h3>Emma Thompson</h3>
-                  <span class="position">Digital Lead</span>
-                </div>
+              <div class="stats-number">
+                <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>+
               </div>
+              <div class="stats-label">Academic Programs</div>
+              <p></p>
             </div>
           </div>
 
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
+          <div class="col-md-6">
+            <div class="stats-card" data-aos="zoom-in" data-aos-delay="600">
+              <div class="stats-icon">
+                <i class="bi bi-cash-stack"></i>
               </div>
-              <p>Professional expertise and dedication have significantly improved our project delivery timelines and quality metrics.</p>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="{{ asset('assets/img/person/person-m-8.webp') }}" alt="Client">
-                </div>
-                <div class="client-details">
-                  <h3>Christopher Lee</h3>
-                  <span class="position">Technical Director</span>
-                </div>
+              <div class="stats-number">
+                $<span data-purecounter-start="0" data-purecounter-end="2" data-purecounter-duration="1" class="purecounter"></span>M
               </div>
+              <div class="stats-label">Research Funding</div>
+              <p></p>
             </div>
           </div>
-
-          <div class="testimonial-item highlight" data-aos="fade-up" data-aos-delay="400">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
-              </div>
-              <p>Collaborative approach and industry expertise have revolutionized our product development cycle, resulting in faster time-to-market and increased customer engagement levels.</p>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="{{ asset('assets/img/person/person-f-9.webp') }}" alt="Client">
-                </div>
-                <div class="client-details">
-                  <h3>Olivia Carter</h3>
-                  <span class="position">Product Manager</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial-item" data-aos="fade-up" data-aos-delay="500">
-            <div class="testimonial-content">
-              <div class="quote-pattern">
-                <i class="bi bi-quote"></i>
-              </div>
-              <p>Innovative approach to user experience design has significantly enhanced our platform's engagement metrics and customer retention rates.</p>
-              <div class="client-info">
-                <div class="client-image">
-                  <img src="{{ asset('assets/img/person/person-m-13.webp') }}" alt="Client">
-                </div>
-                <div class="client-details">
-                  <h3>Nathan Brooks</h3>
-                  <span class="position">UX Director</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
-
       </div>
+    </div>
 
-    </section><!-- /Testimonials Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="stats-overview" data-aos="fade-right" data-aos-delay="200">
-              <h2 class="stats-title">Excellence in Education for Over 50 Years</h2>
-              <p class="stats-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel ultricies magna. Maecenas finibus convallis turpis, non facilisis justo egestas in. Nulla facilisi. Fusce consectetur, enim eget aliquet volutpat, lacus nulla semper velit.</p>
-              <div class="stats-cta">
-                <a href="{{ asset('assets/#') }}" class="btn btn-primary">Learn More</a>
-                <a href="{{ asset('assets/#') }}" class="btn btn-outline">Virtual Tour</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="row g-4">
-              <div class="col-md-6">
-                <div class="stats-card" data-aos="zoom-in" data-aos-delay="300">
-                  <div class="stats-icon">
-                    <i class="bi bi-people-fill"></i>
-                  </div>
-                  <div class="stats-number">
-                    <span data-purecounter-start="0" data-purecounter-end="94" data-purecounter-duration="1" class="purecounter"></span>%
-                  </div>
-                  <div class="stats-label">Graduation Rate</div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="stats-card" data-aos="zoom-in" data-aos-delay="400">
-                  <div class="stats-icon">
-                    <i class="bi bi-person-workspace"></i>
-                  </div>
-                  <div class="stats-number">
-                    <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>:1
-                  </div>
-                  <div class="stats-label">Student-Faculty Ratio</div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="stats-card" data-aos="zoom-in" data-aos-delay="500">
-                  <div class="stats-icon">
-                    <i class="bi bi-award"></i>
-                  </div>
-                  <div class="stats-number">
-                    <span data-purecounter-start="0" data-purecounter-end="125" data-purecounter-duration="1" class="purecounter"></span>+
-                  </div>
-                  <div class="stats-label">Academic Programs</div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="stats-card" data-aos="zoom-in" data-aos-delay="600">
-                  <div class="stats-icon">
-                    <i class="bi bi-cash-stack"></i>
-                  </div>
-                  <div class="stats-number">$<span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>M
-                  </div>
-                  <div class="stats-label">Research Funding</div>
+    <!-- Achievements Section -->
+    <div class="row mt-5">
+      <div class="col-lg-12">
+        <div class="achievements-gallery" data-aos="fade-up" data-aos-delay="700">
+          <div class="row g-4">
+            
+            <div class="col-md-4">
+              <div class="achievement-item">
+                <img src="{{ asset('assets/img/education/education-1.webp') }}" alt="Achievement" class="img-fluid">
+                <div class="achievement-content">
+                  <h4>Top-Ranked Programs</h4>
+                  <p></p>
                 </div>
               </div>
             </div>
+
+            <div class="col-md-4">
+              <div class="achievement-item">
+                <img src="{{ asset('assets/img/education/education-2.webp') }}" alt="Achievement" class="img-fluid">
+                <div class="achievement-content">
+                  <h4>Modern Learning Facilities</h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="achievement-item">
+                <img src="{{ asset('assets/img/education/education-3.webp') }}" alt="Achievement" class="img-fluid">
+                <div class="achievement-content">
+                  <h4>Global Alumni Network</h4>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-
-        <div class="row mt-5">
-          <div class="col-lg-12">
-            <div class="achievements-gallery" data-aos="fade-up" data-aos-delay="700">
-              <div class="row g-4">
-                <div class="col-md-4">
-                  <div class="achievement-item">
-                    <img src="{{ asset('assets/img/education/education-1.webp') }}" alt="Achievement" class="img-fluid">
-                    <div class="achievement-content">
-                      <h4>Top-Ranked Programs</h4>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel ultricies magna.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="achievement-item">
-                    <img src="{{ asset('assets/img/education/education-2.webp') }}" alt="Achievement" class="img-fluid">
-                    <div class="achievement-content">
-                      <h4>State-of-the-Art Facilities</h4>
-                      <p>Maecenas finibus convallis turpis, non facilisis justo egestas in. Nulla facilisi.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="achievement-item">
-                    <img src="{{ asset('assets/img/education/education-3.webp') }}" alt="Achievement" class="img-fluid">
-                    <div class="achievement-content">
-                      <h4>Global Alumni Network</h4>
-                      <p>Fusce consectetur, enim eget aliquet volutpat, lacus nulla semper velit, et luctus.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
+    </div>
 
-    </section><!-- /Stats Section -->
+  </div>
 
-    <!-- Recent News Section -->
+</section><!-- /Stats Section -->
+   <!-- Recent News Section -->
     <section id="recent-news" class="recent-news section">
 
       <!-- Section Title -->
