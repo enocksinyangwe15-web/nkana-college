@@ -11,7 +11,7 @@
         <p>Start your academic journey at Nkana College of Applied Sciences (NCASE), where excellence meets opportunity.</p>
         <nav class="breadcrumbs">
           <ol>
-            <li><a href="{{ route('home') }}">Home</a></li>
+            <li><a href="{{ route('admissions') }}">Home</a></li>
             <li class="current">Admissions</li>
           </ol>
         </nav>
