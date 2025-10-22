@@ -1,0 +1,471 @@
+@extends('layouts.app')
+
+@section('content')
+<header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="{{ asset('assets/index.html') }}" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="{{ asset('assets/assets/img/logo.webp') }}" alt=""> -->
+        <i class="bi bi-buildings"></i>
+        <h1 class="sitename">NiceSchool</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="{{ asset('assets/index.html') }}">Home</a></li>
+          <li class="dropdown"><a href="{{ asset('assets/about.html') }}"><span>About</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="{{ asset('assets/about.html') }}">About Us</a></li>
+              <li><a href="{{ asset('assets/admissions.html') }}">Admissions</a></li>
+              <li><a href="{{ asset('assets/academics.html') }}">Academics</a></li>
+              <li><a href="{{ asset('assets/faculty-staff.html') }}">Faculty &amp; Staff</a></li>
+              <li><a href="{{ asset('assets/campus-facilities.html') }}">Campus &amp; Facilities</a></li>
+            </ul>
+          </li>
+
+          <li><a href="{{ asset('assets/students-life.html') }}">Students Life</a></li>
+          <li><a href="{{ asset('assets/news.html') }}" class="active">News</a></li>
+          <li><a href="{{ asset('assets/events.html') }}">Events</a></li>
+          <li><a href="{{ asset('assets/alumni.html') }}">Alumni</a></li>
+          <li class="dropdown"><a href="{{ asset('assets/#') }}"><span>More Pages</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="{{ asset('assets/news-details.html') }}">News Details</a></li>
+              <li><a href="{{ asset('assets/event-details.html') }}">Event Details</a></li>
+              <li><a href="{{ asset('assets/privacy.html') }}">Privacy</a></li>
+              <li><a href="{{ asset('assets/terms-of-service.html') }}">Terms of Service</a></li>
+              <li><a href="{{ asset('assets/404.html') }}">Error 404</a></li>
+              <li><a href="{{ asset('assets/starter-page.html') }}">Starter Page</a></li>
+            </ul>
+          </li>
+
+          <li class="dropdown"><a href="{{ asset('assets/#') }}"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="{{ asset('assets/#') }}">Dropdown 1</a></li>
+              <li class="dropdown"><a href="{{ asset('assets/#') }}"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="{{ asset('assets/#') }}">Deep Dropdown 1</a></li>
+                  <li><a href="{{ asset('assets/#') }}">Deep Dropdown 2</a></li>
+                  <li><a href="{{ asset('assets/#') }}">Deep Dropdown 3</a></li>
+                  <li><a href="{{ asset('assets/#') }}">Deep Dropdown 4</a></li>
+                  <li><a href="{{ asset('assets/#') }}">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="{{ asset('assets/#') }}">Dropdown 2</a></li>
+              <li><a href="{{ asset('assets/#') }}">Dropdown 3</a></li>
+              <li><a href="{{ asset('assets/#') }}">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="{{ asset('assets/contact.html') }}">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" style="background-image: url(assets/img/education/showcase-1.webp);">
+      <div class="container position-relative">
+        <h1>News</h1>
+        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="{{ asset('assets/index.html') }}">Home</a></li>
+            <li class="current">News</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- News Hero Section -->
+    <section id="news-hero" class="news-hero section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row g-4">
+          <!-- Left Side Posts -->
+          <div class="col-lg-3">
+            <div class="side-posts">
+              <!-- Side Post 1 -->
+              <article class="post-item side-post" data-aos="fade-right" data-aos-delay="100">
+                <div class="post-img">
+                  <img src="{{ asset('assets/assets/img/blog/blog-post-3.webp') }}" alt="Post Image" class="img-fluid" loading="lazy">
+                  <span class="category entertainment">Entertainment</span>
+                </div>
+                <div class="post-content">
+                  <h3 class="post-title">
+                    <a href="{{ asset('assets/#') }}">Maecenas tempus tellus eget condimentum rhoncus semper quam</a>
+                  </h3>
+                  <div class="post-meta">
+                    <span>March 15, 2025</span>
+                    <span class="dot">•</span>
+                    <span>3 Comments</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Side Post 2 -->
+              <article class="post-item side-post" data-aos="fade-right" data-aos-delay="200">
+                <div class="post-img">
+                  <img src="{{ asset('assets/assets/img/blog/blog-post-9.webp') }}" alt="Post Image" class="img-fluid" loading="lazy">
+                  <span class="category technology">Technology</span>
+                </div>
+                <div class="post-content">
+                  <h3 class="post-title">
+                    <a href="{{ asset('assets/#') }}">Donec pede justo fringilla vel aliquet nec vulputate eget</a>
+                  </h3>
+                  <div class="post-meta">
+                    <span>March 14, 2025</span>
+                    <span class="dot">•</span>
+                    <span>5 Comments</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <!-- Main Post -->
+          <div class="col-lg-6">
+            <article class="post-item main-post" data-aos="fade-up">
+              <div class="post-img">
+                <img src="{{ asset('assets/assets/img/blog/blog-post-7.webp') }}" alt="Post Image" class="img-fluid">
+                <span class="category business">Business</span>
+              </div>
+              <div class="post-content">
+                <h2 class="post-title">
+                  <a href="{{ asset('assets/#') }}">Curabitur ullamcorper ultricies nisi nam eget dui etiam rhoncus</a>
+                </h2>
+                <p class="post-excerpt">
+                  Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante.
+                </p>
+                <div class="post-meta">
+                  <span>March 16, 2025</span>
+                  <span class="dot">•</span>
+                  <span>8 Comments</span>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Right Side Posts -->
+          <div class="col-lg-3">
+            <div class="side-posts">
+              <!-- Side Post 3 -->
+              <article class="post-item side-post" data-aos="fade-left" data-aos-delay="100">
+                <div class="post-img">
+                  <img src="{{ asset('assets/assets/img/blog/blog-post-6.webp') }}" alt="Post Image" class="img-fluid" loading="lazy">
+                  <span class="category technology">Technology</span>
+                </div>
+                <div class="post-content">
+                  <h3 class="post-title">
+                    <a href="{{ asset('assets/#') }}">Aenean vulputate eleifend tellus aenean leo ligula porttitor</a>
+                  </h3>
+                  <div class="post-meta">
+                    <span>March 13, 2025</span>
+                    <span class="dot">•</span>
+                    <span>2 Comments</span>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Side Post 4 -->
+              <article class="post-item side-post" data-aos="fade-left" data-aos-delay="200">
+                <div class="post-img">
+                  <img src="{{ asset('assets/assets/img/blog/blog-post-9.webp') }}" alt="Post Image" class="img-fluid" loading="lazy">
+                  <span class="category lifestyle">Lifestyle</span>
+                </div>
+                <div class="post-content">
+                  <h3 class="post-title">
+                    <a href="{{ asset('assets/#') }}">Etiam sit amet orci eget eros faucibus tincidunt duis leo</a>
+                  </h3>
+                  <div class="post-meta">
+                    <span>March 12, 2025</span>
+                    <span class="dot">•</span>
+                    <span>4 Comments</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /News Hero Section -->
+
+    <!-- News Posts Section -->
+    <section id="news-posts" class="news-posts section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <article>
+
+              <div class="post-img position-relative">
+                <img src="{{ asset('assets/assets/img/blog/blog-post-1.webp') }}" alt="" class="img-fluid" loading="lazy">
+                <div class="post-content">
+                  <p class="post-category">Politics</p>
+                  <h2 class="title">
+                    <a href="{{ asset('assets/blog-details.html') }}">Dolorum optio tempore voluptas dignissimos</a>
+                  </h2>
+                  <div class="post-meta">
+                    <time datetime="2025-01-01">Jan 1, 2025</time>
+                    <span class="px-2">•</span>
+                    <span>No Comments</span>
+                  </div>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article>
+
+              <div class="post-img position-relative">
+                <img src="{{ asset('assets/assets/img/blog/blog-post-2.webp') }}" alt="" class="img-fluid" loading="lazy">
+                <div class="post-content">
+                  <p class="post-category">Sports</p>
+                  <h2 class="title">
+                    <a href="{{ asset('assets/blog-details.html') }}">Nisi magni odit consequatur autem nulla dolorem</a>
+                  </h2>
+                  <div class="post-meta">
+                    <time datetime="2025-06-05">Jun 5, 2025</time>
+                    <span class="px-2">•</span>
+                    <span>No Comments</span>
+                  </div>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article>
+
+              <div class="post-img position-relative">
+                <img src="{{ asset('assets/assets/img/blog/blog-post-3.webp') }}" alt="" class="img-fluid" loading="lazy">
+                <div class="post-content">
+                  <p class="post-category">Entertainment</p>
+                  <h2 class="title">
+                    <a href="{{ asset('assets/blog-details.html') }}">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
+                  </h2>
+                  <div class="post-meta">
+                    <time datetime="2025-06-22">Jun 22, 2025</time>
+                    <span class="px-2">•</span>
+                    <span>No Comments</span>
+                  </div>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article>
+
+              <div class="post-img position-relative">
+                <img src="{{ asset('assets/assets/img/blog/blog-post-4.webp') }}" alt="" class="img-fluid" loading="lazy">
+                <div class="post-content">
+                  <p class="post-category">Sports</p>
+                  <h2 class="title">
+                    <a href="{{ asset('assets/blog-details.html') }}">Non rem rerum nam cum quo minus olor distincti</a>
+                  </h2>
+                  <div class="post-meta">
+                    <time datetime="2025-06-30">Jun 30, 2025</time>
+                    <span class="px-2">•</span>
+                    <span>No Comments</span>
+                  </div>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article>
+
+              <div class="post-img position-relative">
+                <img src="{{ asset('assets/assets/img/blog/blog-post-5.webp') }}" alt="" class="img-fluid" loading="lazy">
+                <div class="post-content">
+                  <p class="post-category">Politics</p>
+                  <h2 class="title">
+                    <a href="{{ asset('assets/blog-details.html') }}">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
+                  </h2>
+                  <div class="post-meta">
+                    <time datetime="2025-01-30">Jan 30, 2025</time>
+                    <span class="px-2">•</span>
+                    <span>No Comments</span>
+                  </div>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-lg-4">
+            <article>
+
+              <div class="post-img position-relative">
+                <img src="{{ asset('assets/assets/img/blog/blog-post-6.webp') }}" alt="" class="img-fluid" loading="lazy">
+                <div class="post-content">
+                  <p class="post-category">Entertainment</p>
+                  <h2 class="title">
+                    <a href="{{ asset('assets/blog-details.html') }}">Distinctio provident quibusdam numquam aperiam aut</a>
+                  </h2>
+                  <div class="post-meta">
+                    <time datetime="2025-02-14">Feb 14, 2025</time>
+                    <span class="px-2">•</span>
+                    <span>No Comments</span>
+                  </div>
+                </div>
+              </div>
+
+            </article>
+          </div><!-- End post list item -->
+
+        </div>
+      </div>
+
+    </section><!-- /News Posts Section -->
+
+    <!-- Pagination 2 Section -->
+    <section id="pagination-2" class="pagination-2 section">
+
+      <div class="container">
+        <nav class="d-flex justify-content-center" aria-label="Page navigation">
+          <ul>
+            <li>
+              <a href="{{ asset('assets/#') }}" aria-label="Previous page">
+                <i class="bi bi-arrow-left"></i>
+                <span class="d-none d-sm-inline">Previous</span>
+              </a>
+            </li>
+
+            <li><a href="{{ asset('assets/#') }}" class="active">1</a></li>
+            <li><a href="{{ asset('assets/#') }}">2</a></li>
+            <li><a href="{{ asset('assets/#') }}">3</a></li>
+            <li class="ellipsis">...</li>
+            <li><a href="{{ asset('assets/#') }}">8</a></li>
+            <li><a href="{{ asset('assets/#') }}">9</a></li>
+            <li><a href="{{ asset('assets/#') }}">10</a></li>
+
+            <li>
+              <a href="{{ asset('assets/#') }}" aria-label="Next page">
+                <span class="d-none d-sm-inline">Next</span>
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+    </section><!-- /Pagination 2 Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative dark-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="{{ asset('assets/index.html') }}" class="logo d-flex align-items-center">
+            <span class="sitename">NiceSchool</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>A108 Adam Street</p>
+            <p>New York, NY 535022</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+            <p><strong>Email:</strong> <span>info@example.com</span></p>
+          </div>
+          <div class="social-links d-flex mt-4">
+            <a href="{{ asset('assets/') }}"><i class="bi bi-twitter-x"></i></a>
+            <a href="{{ asset('assets/') }}"><i class="bi bi-facebook"></i></a>
+            <a href="{{ asset('assets/') }}"><i class="bi bi-instagram"></i></a>
+            <a href="{{ asset('assets/') }}"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="{{ asset('assets/#') }}">Home</a></li>
+            <li><a href="{{ asset('assets/#') }}">About us</a></li>
+            <li><a href="{{ asset('assets/#') }}">Services</a></li>
+            <li><a href="{{ asset('assets/#') }}">Terms of service</a></li>
+            <li><a href="{{ asset('assets/#') }}">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="{{ asset('assets/#') }}">Web Design</a></li>
+            <li><a href="{{ asset('assets/#') }}">Web Development</a></li>
+            <li><a href="{{ asset('assets/#') }}">Product Management</a></li>
+            <li><a href="{{ asset('assets/#') }}">Marketing</a></li>
+            <li><a href="{{ asset('assets/#') }}">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Hic solutasetp</h4>
+          <ul>
+            <li><a href="{{ asset('assets/#') }}">Molestiae accusamus iure</a></li>
+            <li><a href="{{ asset('assets/#') }}">Excepturi dignissimos</a></li>
+            <li><a href="{{ asset('assets/#') }}">Suscipit distinctio</a></li>
+            <li><a href="{{ asset('assets/#') }}">Dilecta</a></li>
+            <li><a href="{{ asset('assets/#') }}">Sit quas consectetur</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Nobis illum</h4>
+          <ul>
+            <li><a href="{{ asset('assets/#') }}">Ipsam</a></li>
+            <li><a href="{{ asset('assets/#') }}">Laudantium dolorum</a></li>
+            <li><a href="{{ asset('assets/#') }}">Dinera</a></li>
+            <li><a href="{{ asset('assets/#') }}">Trodelas</a></li>
+            <li><a href="{{ asset('assets/#') }}">Flexo</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">MyWebsite</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="{{ asset('assets/https://bootstrapmade.com/') }}">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="{{ asset('assets/#') }}" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{{ asset('assets/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+  <script src="{{ asset('assets/assets/vendor/php-email-form/validate.js') }}"></script>
+  <script src="{{ asset('assets/assets/vendor/aos/aos.js') }}"></script>
+  <script src="{{ asset('assets/assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
+  <script src="{{ asset('assets/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+  <script src="{{ asset('assets/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+  <script src="{{ asset('assets/assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
+  <script src="{{ asset('assets/assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
+
+  <!-- Main JS File -->
+  <script src="{{ asset('assets/assets/js/main.js') }}"></script>
+@endsection
