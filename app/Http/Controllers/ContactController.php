@@ -1,0 +1,30 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Contact;
+use Illuminate\Http\Request;
+
+class ContactController extends Controller
+{
+    // Show contact form (optional)
+    public function index()
+    {
+        return view('contact');
+    }
+
+    // Handle form submission
+    public function store(Request $request)
+    {
+        $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'subject' => 'nullable|string|max:255',
+            'message' => 'required|string',
+        ]);
+
+        Contact::create($request->all());
+
+        return back()->with('success', 'Your message has been sent successfully!');
+    }
+}

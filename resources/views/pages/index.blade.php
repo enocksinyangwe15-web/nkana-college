@@ -467,11 +467,10 @@
    <!-- Recent News Section -->
     <section id="recent-news" class="recent-news section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Recent News</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+  <h2>Recent News</h2>
+  <p>Catch up on the latest updates, achievements, and announcements from our campus community.</p>
+</div><Section Title -->
 
       <div class="container">
 
@@ -564,11 +563,11 @@
     <!-- Events Section -->
     <section id="events" class="events section">
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Events</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
+     <div class="container section-title" data-aos="fade-up">
+  <h2>Events</h2>
+  <p>Stay updated with our latest campus activities, workshops, and student-focused events that foster learning and community engagement.</p>
+</div>
+<!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -609,7 +608,7 @@
               <div class="event-content">
                 <div class="event-tag academic">Academic</div>
                 <h3>Science Fair Exhibition</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Showcasing student innovation and creativity, the Science Fair Exhibition highlights exciting projects and experiments across various scientific disciplines.</p>
                 <div class="event-meta">
                   <div class="meta-item">
                     <i class="bi bi-clock"></i>
@@ -638,7 +637,7 @@
               <div class="event-content">
                 <div class="event-tag sports">Sports</div>
                 <h3>Annual Sports Day</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+                <p>Annual Sports Day celebrates athleticism and teamwork, bringing students together for fun, competition, and school spirit.</p>
                 <div class="event-meta">
                   <div class="meta-item">
                     <i class="bi bi-clock"></i>
@@ -667,7 +666,7 @@
               <div class="event-content">
                 <div class="event-tag arts">Arts</div>
                 <h3>Spring Music Concert</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit.</p>
+                <p>The Spring Music Concert showcases student talent, blending melodies and performances in a celebration of music and creativity.</p>
                 <div class="event-meta">
                   <div class="meta-item">
                     <i class="bi bi-clock"></i>
@@ -696,7 +695,7 @@
               <div class="event-content">
                 <div class="event-tag community">Community</div>
                 <h3>Parent-Teacher Conference</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla.</p>
+                <p>he Parent-Teacher Conference provides an opportunity for parents and teachers to discuss student progress, achievements, and ways to support learning at home and school..</p>
                 <div class="event-meta">
                   <div class="meta-item">
                     <i class="bi bi-clock"></i>
