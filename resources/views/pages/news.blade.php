@@ -70,7 +70,7 @@
     <div class="page-title dark-background" style="background-image: url(assets/img/education/showcase-1.webp);">
       <div class="container position-relative">
         <h1>News</h1>
-        <p>Esse dolorum voluptatum ullam est sint nemo et est ipsa porro placeat quibusdam quia assumenda numquam molestias.</p>
+        <p>The News section provides the latest updates and important announcements, highlighting key stories and developments that keep readers informed about current events and activities.</p>
         <nav class="breadcrumbs">
           <ol>
             <li><a href="{{ asset('assets/index.html') }}">Home</a></li>
@@ -98,7 +98,7 @@
                 <div class="post-content">
                   <h3 class="post-title">
                     <a href="{{ asset('assets/#') }}">Maecenas tempus tellus eget condimentum rhoncus semper quam</a>
-                  </h3>
+                  </h3> 
                   <div class="post-meta">
                     <span>March 15, 2025</span>
                     <span class="dot">•</span>
@@ -115,7 +115,7 @@
                 </div>
                 <div class="post-content">
                   <h3 class="post-title">
-                    <a href="{{ asset('assets/#') }}">Donec pede justo fringilla vel aliquet nec vulputate eget</a>
+                    <a href="{{ asset('assets/#') }}">This article explores the latest trends and innovations in technology, focusing on how new advancements are shaping the modern digital world.</a>
                   </h3>
                   <div class="post-meta">
                     <span>March 14, 2025</span>

@@ -1,158 +1,122 @@
 @extends('layouts.app')
 
 @section('content')
+<main class="main">
 
-  <main class="main">
+  <!-- Contact Form Section -->
+  <div class="container form-container-overlap">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="contact-form-wrapper">
+          <h2 class="text-center mb-4">Get in Touch</h2>
 
-    <!-- Page Title -->
-    <div class="page-title dark-background" style="background-image: url(assets/img/education/showcase-1.webp);">
-      <div class="container position-relative">
-        <h1>Contact</h1>
-        <p>Get in touch with us for any questions, support, or feedback — we’re here to help and respond promptly to your inquiries.</p>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="{{ asset('assets/index.html') }}">Home</a></li>
-            <li class="current">Contact</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <!-- Contact Info Boxes -->
-        <div class="row gy-4 mb-5">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="contact-info-box">
-              <div class="icon-box">
-                <i class="bi bi-geo-alt"></i>
-              </div>
-              <div class="info-content">
-                <h4>Our Address</h4>
-                <p>27th </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="contact-info-box">
-              <div class="icon-box">
-                <i class="bi bi-envelope"></i>
-              </div>
-              <div class="info-content">
-                <h4>Email Address</h4>
-                <p>info@example.com</p>
-                <p>contact@example.com</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="contact-info-box">
-              <div class="icon-box">
-                <i class="bi bi-headset"></i>
-              </div>
-              <div class="info-content">
-                <h4>Hours of Operation</h4>
-                <p>Sunday-Fri: 9 AM - 6 PM</p>
-                <p>Saturday: 9 AM - 4 PM</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Google Maps (Full Width) -->
-      <div class="map-section" data-aos="fade-up" data-aos-delay="200">
-        <iframe src="{{ asset('assets/https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus') }}" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
-
-      <!-- Contact Form Section (Overlapping) -->
-      <div class="container form-container-overlap">
-        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
-          <div class="col-lg-10">
-            <div class="contact-form-wrapper">
-              <h2 class="text-center mb-4">Get in Touch</h2>
-
-              <form action="forms/contact.php" method="post" class="php-email-form">
-                <div class="row g-3">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <div class="input-with-icon">
-                        <i class="bi bi-person"></i>
-                        <input type="text" class="form-control" name="name" placeholder="First Name" required="">
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <div class="input-with-icon">
-                        <i class="bi bi-envelope"></i>
-                        <input type="email" class="form-control" name="email" placeholder="Email Address" required="">
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-md-12">
-                    <div class="form-group">
-                      <div class="input-with-icon">
-                        <i class="bi bi-text-left"></i>
-                        <input type="text" class="form-control" name="sbject" placeholder="Subject" required="">
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-12">
-                    <div class="form-group">
-                      <div class="input-with-icon">
-                        <i class="bi bi-chat-dots message-icon"></i>
-                        <textarea class="form-control" name="message" placeholder="Write Message..." style="height: 180px" required=""></textarea>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="col-12">
-                    <div class="loading">Loading</div>
-                    <div class="error-message"></div>
-                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                  </div>
-
-                  <div class="col-12 text-center">
-                    <button type="submit" class="btn btn-primary btn-submit">SEND MESSAGE</button>
+          <!-- AJAX Contact Form -->
+          <form id="contactForm" action="{{ route('contact.store') }}" method="POST">
+            @csrf
+            <div class="row g-3">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="input-with-icon">
+                    <i class="bi bi-person"></i>
+                    <input type="text" class="form-control" name="name" placeholder="Full Name" required>
                   </div>
                 </div>
-              </form>
+              </div>
+
+              <div class="col-md-6">
+                <div class="form-group">
+                  <div class="input-with-icon">
+                    <i class="bi bi-envelope"></i>
+                    <input type="email" class="form-control" name="email" placeholder="Email Address" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="form-group">
+                  <div class="input-with-icon">
+                    <i class="bi bi-text-left"></i>
+                    <input type="text" class="form-control" name="subject" placeholder="Subject">
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12">
+                <div class="form-group">
+                  <div class="input-with-icon">
+                    <i class="bi bi-chat-dots message-icon"></i>
+                    <textarea class="form-control" name="message" placeholder="Write Message..." style="height: 180px" required></textarea>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 text-center">
+                <button type="submit" class="btn btn-primary btn-submit">SEND MESSAGE</button>
+              </div>
             </div>
-          </div>
+          </form>
+
+          <div id="formResponse" style="margin-top: 15px;"></div>
+
         </div>
-
       </div>
+    </div>
+  </div>
 
-    </section><!-- /Contact Section -->
-
-  </main>
-
-
-  <!-- Scroll Top -->
-  <a href="{{ asset('assets/#') }}" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-  <!-- Vendor JS Files -->
-  <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-  <script src="{{ asset('assets/vendor/php-email-form/validate.js') }}"></script>
-  <script src="{{ asset('assets/vendor/aos/aos.js') }}"></script>
-  <script src="{{ asset('assets/vendor/purecounter/purecounter_vanilla.js') }}"></script>
-  <script src="{{ asset('assets/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
-  <script src="{{ asset('assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
-  <script src="{{ asset('assets/vendor/swiper/swiper-bundle.min.js') }}"></script>
-  <script src="{{ asset('assets/vendor/glightbox/js/glightbox.min.js') }}"></script>
-
-  <!-- Main JS File -->
-  <script src="{{ asset('assets/js/main.js') }}"></script>
+</main>
 @endsection
+
+@push('scripts')
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const form = document.getElementById('contactForm');
+    const responseBox = document.getElementById('formResponse');
+
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault(); // Prevent default submission
+
+    const formData = new FormData(form);
+    responseBox.innerHTML = "<div style='color:blue;'>Sending message...</div>";
+
+    try {
+      const response = await fetch("{{ route('contact.store') }}", {
+        method: "POST",
+        headers: {
+          "X-CSRF-TOKEN": "{{ csrf_token() }}",
+          "Accept": "application/json",
+          "X-Requested-With": "XMLHttpRequest"
+        },
+        body: formData
+      });
+
+      let data = null;
+      try {
+        data = await response.json();
+      } catch (parseErr) {
+        console.error('Invalid JSON response', parseErr);
+        responseBox.innerHTML = "<div style='color:red;'>Invalid server response. Please try again.</div>";
+        return;
+      }
+
+      if (response.ok && data && data.success) {
+        responseBox.innerHTML = `<div style='color:green;'>${data.message}</div>`;
+        form.reset();
+      } else if (response.status === 422 && data && data.errors) {
+        // Validation errors from Laravel
+        const errors = data.errors;
+        const messages = Object.values(errors).flat().map(arr => arr.join('<br>')).join('<br>');
+        responseBox.innerHTML = `<div style='color:red;'>${messages}</div>`;
+      } else {
+        // Other errors
+        const msg = (data && data.message) ? data.message : 'Failed to send message.';
+        responseBox.innerHTML = `<div style='color:red;'>${msg}</div>`;
+      }
+
+    } catch(err){
+      console.error(err);
+      responseBox.innerHTML = "<div style='color:red;'>Server error. Please try again.</div>";
+    }
+  });
+});
+</script>
+@endpush
